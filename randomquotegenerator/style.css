@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+    background-color: #3c52b1;
+}
+:root{
+    --primary-color: #0a27aa;
+    --secondary-color: #db6474;
+    --bg-color: rgb(152, 152, 216);
+}
+.bdy{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,6);
+    border-radius: 10px;
+    width: 600px;
+    background-color: rgb(152, 152, 216);
+    margin: 10px;
+}
+.fa-quote-left{
+    font-size: 60px;
+    color: var(--secondary-color);
+    background-color: rgb(152, 152, 216);
+    
+}
+.fa-quote-right{
+    font-size: 60px;
+    color: var(--secondary-color);
+    background-color: rgb(152, 152, 216);
+    
+}
+.quote{
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+    color: var(--primary-color);
+    background-color: rgb(152, 152, 216);
+}
+.author{
+    color: var(--primary-color);
+    font-size: 30px;
+    background-color: rgb(152, 152, 216);
+}
+hr{
+    margin: 10px 0;
+    width: 60%;
+    border: 1px solid #364ba788;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(152, 152, 216);
+}
+.fa-brands{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    color: var(--primary-color);
+    background-color: rgb(152, 152, 216);
+}
+.buttons button{
+    background-color: var(--primary-color);
+    border: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
